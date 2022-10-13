@@ -1,0 +1,300 @@
+name: helloworld
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+      - imagens/ad.png
+      - imagens/ae.png
+      - imagens/af.png
+      - imagens/ag.png
+      - imagens/ai.png
+      - imagens/al.png
+      - imagens/am.png
+      - imagens/ao.png
+      - imagens/aq.png
+      - imagens/ar.png
+      - imagens/as.png
+      - imagens/at.png
+      - imagens/au.png
+      - imagens/aw.png
+      - imagens/ax.png
+      - imagens/az.png
+      - imagens/ba.png
+      - imagens/bb.png
+      - imagens/bd.png
+      - imagens/be.png
+      - imagens/bf.png
+      - imagens/bg.png
+      - imagens/bh.png
+      - imagens/bi.png
+      - imagens/bj.png
+      - imagens/bl.png
+      - imagens/bm.png
+      - imagens/bn.png
+      - imagens/bo.png
+      - imagens/bq.png
+      - imagens/br.png
+      - imagens/bs.png
+      - imagens/bt.png
+      - imagens/bv.png
+      - imagens/bw.png
+      - imagens/by.png
+      - imagens/bz.png
+      - imagens/ca.png
+      - imagens/cc.png
+      - imagens/cd.png
+      - imagens/cf.png
+      - imagens/cg.png
+      - imagens/ch.png
+      - imagens/ci.png
+      - imagens/ck.png
+      - imagens/cl.png
+      - imagens/cm.png
+      - imagens/cn.png
+      - imagens/co.png
+      - imagens/cr.png
+      - imagens/cu.png
+      - imagens/cv.png
+      - imagens/cw.png
+      - imagens/cx.png
+      - imagens/cy.png
+      - imagens/cz.png
+      - imagens/de.png
+      - imagens/dj.png
+      - imagens/dk.png
+      - imagens/dm.png
+      - imagens/do.png
+      - imagens/dz.png
+      - imagens/ec.png
+      - imagens/ee.png
+      - imagens/eg.png
+      - imagens/eh.png
+      - imagens/er.png
+      - imagens/es.png
+      - imagens/et.png
+      - imagens/fi.png
+      - imagens/fj.png
+      - imagens/fk.png
+      - imagens/fm.png
+      - imagens/fo.png
+      - imagens/fr.png
+      - imagens/ga.png
+      - imagens/gb.png
+      - imagens/gb-eng.png
+      - imagens/gb-nir.png
+      - imagens/gb-sct.png
+      - imagens/gb-wls.png
+      - imagens/gd.png
+      - imagens/ge.png
+      - imagens/gf.png
+      - imagens/gg.png
+      - imagens/gh.png
+      - imagens/gi.png
+      - imagens/gl.png
+      - imagens/gm.png
+      - imagens/gn.png
+      - imagens/gp.png
+      - imagens/gq.png
+      - imagens/gr.png
+      - imagens/gs.png
+      - imagens/gt.png
+      - imagens/gu.png
+      - imagens/gw.png
+      - imagens/gy.png
+      - imagens/hk.png
+      - imagens/hm.png
+      - imagens/hn.png
+      - imagens/hr.png
+      - imagens/ht.png
+      - imagens/hu.png
+      - imagens/id.png
+      - imagens/ie.png
+      - imagens/il.png
+      - imagens/im.png
+      - imagens/in.png
+      - imagens/io.png
+      - imagens/iq.png
+      - imagens/ir.png
+      - imagens/is.png
+      - imagens/it.png
+      - imagens/je.png
+      - imagens/jm.png
+      - imagens/jo.png
+      - imagens/jp.png
+      - imagens/ke.png
+      - imagens/kg.png
+      - imagens/kh.png
+      - imagens/ki.png
+      - imagens/km.png
+      - imagens/kn.png
+      - imagens/kp.png
+      - imagens/kr.png
+      - imagens/kw.png
+      - imagens/ky.png
+      - imagens/kz.png
+      - imagens/la.png
+      - imagens/lb.png
+      - imagens/lc.png
+      - imagens/li.png
+      - imagens/lk.png
+      - imagens/lr.png
+      - imagens/ls.png
+      - imagens/lt.png
+      - imagens/lu.png
+      - imagens/lv.png
+      - imagens/ly.png
+      - imagens/ma.png
+      - imagens/mc.png
+      - imagens/md.png
+      - imagens/me.png
+      - imagens/mf.png
+      - imagens/mg.png
+      - imagens/mh.png
+      - imagens/mk.png
+      - imagens/ml.png
+      - imagens/mm.png
+      - imagens/mn.png
+      - imagens/mo.png
+      - imagens/mp.png
+      - imagens/mq.png
+      - imagens/mr.png
+      - imagens/ms.png
+      - imagens/mt.png
+      - imagens/mu.png
+      - imagens/mv.png
+      - imagens/mw.png
+      - imagens/mx.png
+      - imagens/my.png
+      - imagens/mz.png
+      - imagens/na.png
+      - imagens/nc.png
+      - imagens/ne.png
+      - imagens/nf.png
+      - imagens/ng.png
+      - imagens/ni.png
+      - imagens/nl.png
+      - imagens/no.png
+      - imagens/np.png
+      - imagens/nr.png
+      - imagens/nu.png
+      - imagens/nz.png
+      - imagens/om.png
+      - imagens/pa.png
+      - imagens/pe.png
+      - imagens/pf.png
+      - imagens/pg.png
+      - imagens/ph.png
+      - imagens/pk.png
+      - imagens/pl.png
+      - imagens/pm.png
+      - imagens/pn.png
+      - imagens/pr.png
+      - imagens/ps.png
+      - imagens/pt.png
+      - imagens/pw.png
+      - imagens/py.png
+      - imagens/qa.png
+      - imagens/re.png
+      - imagens/ro.png
+      - imagens/rs.png
+      - imagens/ru.png
+      - imagens/rw.png
+      - imagens/sa.png
+      - imagens/sb.png
+      - imagens/sc.png
+      - imagens/sd.png
+      - imagens/se.png
+      - imagens/sg.png
+      - imagens/sh.png
+      - imagens/si.png
+      - imagens/sj.png
+      - imagens/sk.png
+      - imagens/sl.png
+      - imagens/sm.png
+      - imagens/sn.png
+      - imagens/so.png
+      - imagens/sr.png
+      - imagens/ss.png
+      - imagens/st.png
+      - imagens/sv.png
+      - imagens/sx.png
+      - imagens/sy.png
+      - imagens/sz.png
+      - imagens/tc.png
+      - imagens/td.png
+      - imagens/tf.png
+      - imagens/tg.png
+      - imagens/th.png
+      - imagens/tj.png
+      - imagens/tk.png
+      - imagens/tl.png
+      - imagens/tm.png
+      - imagens/tn.png
+      - imagens/to.png
+      - imagens/tr.png
+      - imagens/tt.png
+      - imagens/tv.png
+      - imagens/tw.png
+      - imagens/tz.png
+      - imagens/ua.png
+      - imagens/ug.png
+      - imagens/um.png
+      - imagens/us.png
+      - imagens/uy.png
+      - imagens/uz.png
+      - imagens/va.png
+      - imagens/vc.png
+      - imagens/ve.png
+      - imagens/vg.png
+      - imagens/vi.png
+      - imagens/vn.png
+      - imagens/vu.png
+      - imagens/wf.png
+      - imagens/ws.png
+      - imagens/xk.png
+      - imagens/ye.png
+      - imagens/yt.png
+      - imagens/za.png
+      - imagens/zm.png
+      - imagens/zw.png
